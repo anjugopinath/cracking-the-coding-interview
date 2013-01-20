@@ -1,3 +1,5 @@
+package chapter8.klw;
+
 import java.util.Collection;
 import java.util.Set;
 import java.util.HashSet;

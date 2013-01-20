@@ -1,3 +1,5 @@
+package chapter8.klw;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.LinkedList;
@@ -10,7 +12,7 @@ public class Q2_RobotPaths {
     private final Cell targetCell;
 
     public PathFinder(int gridSize) {
-      foundPaths = new HashMap<Cell, Collection<List<Cell>>>();
+      Map<Cell, Collection<List<Cell>>> foundPaths = new HashMap<Cell, Collection<List<Cell>>>();
       this.gridSize = gridSize;
       this.targetCell = new Cell(this.gridSize - 1, this.gridSize - 1);
     }
